@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="facebook-page flex">
+        <div class="text">
+          <h1>facebook</h1>
+          <p>Connect with friends and the world </p>
+          <p> around you on Facebook.</p>
+        </div>
+        <form action="face.html"  onsubmit="return  formValidate()" novalidate>
+          <p id="error" class="p1"></p>
+
+          <input type="email" placeholder="Email " id="email">
+
+          <input type="text" placeholder="username" id="username" >
+
+        
+          <input type="tel" placeholder="phone" id="phone">
+
+        
+          <input type="password" placeholder="Password" id="pass" >
+      
+          <input type="submit" class="login">
+
+          <div class="link">
+            <p style="  font-size: 0.875rem;">Already have an account? <a href="#" style="font-size: 1.2rem;" class="forgot">login</a>
+            </p>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
